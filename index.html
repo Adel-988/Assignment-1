@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+  </head>
+  <body class="bg-dark">
+    <div class="w-25 mx-auto my-5 p-5 text-bg-danger text-black fw-bold">
+      <label for="programSeven">Program Seven:</label>
+
+      <input
+        type="text"
+        id="programSeven"
+        maxlength="1"
+        class="d-block my-3 w-100"
+      />
+
+      <button onclick="result()" class="d-block my-3 mx-auto">Click Me</button>
+
+      <span id="programSevenResultSpan"></span>
+    </div>
+
+    <div class="w-25 mx-auto my-5 p-5 text-bg-danger text-black fw-bold">
+      <label for="programEight">Program Eight:</label>
+
+      <input
+        type="number"
+        id="programEight"
+        min="1"
+        class="d-block my-3 w-100"
+      />
+
+      <button onclick="programEightNumber()" class="d-block my-3 mx-auto">
+        Click Me
+      </button>
+
+      <span id="programEightResultSpan"></span>
+    </div>
+
+    <div class="w-25 mx-auto my-5 p-5 text-bg-danger text-black fw-bold">
+      <label for="programNine">Program Nine:</label>
+
+      <input type="number" id="programNine" class="d-block my-3 w-100" />
+
+      <button onclick="programNineNumber()" class="d-block my-3 mx-auto">
+        Click Me
+      </button>
+
+      <span id="programNineResultSpan"></span>
+    </div>
+
+    <div class="w-25 mx-auto my-5 p-5 text-bg-danger text-black fw-bold">
+      <label for="programTen">Program Ten:</label>
+
+      <input type="number" id="programTen" class="d-block my-3 w-100" />
+
+      <button onclick="programTenNumber()" class="d-block my-3 mx-auto">
+        Click Me
+      </button>
+
+      <span id="programTenResultSpan"></span>
+    </div>
+
+    <div class="w-25 mx-auto my-5 p-5 text-bg-danger text-black fw-bold">
+      <label for="programEleven">Program Eleven:</label>
+
+      <input
+        type="number"
+        id="programElevenFirstNumber"
+        placeholder="enter the number"
+        class="d-block my-3 w-100"
+      />
+
+      <input
+        type="number"
+        id="programElevenSecondNumber"
+        placeholder="enter the power"
+        class="d-block my-3 w-100"
+      />
+
+      <button onclick="programEleven()" class="d-block my-3 mx-auto">
+        Click Me
+      </button>
+
+      <span id="programElevenResultSpan"></span>
+    </div>
+
+    <div class="w-25 mx-auto my-5 p-5 text-bg-danger text-black fw-bold">
+      <label for="programTwelve">Program twelve:</label>
+
+      <input
+        type="number"
+        id="programTwelveFirstNumber"
+        placeholder="enter the first mark"
+        class="d-block my-3 w-100"
+        max="100"
+        min="0"
+      />
+
+      <input
+        type="number"
+        id="programTwelveSecondNumber"
+        placeholder="enter the second mark"
+        class="d-block my-3 w-100"
+        max="100"
+        min="0"
+      />
+
+      <input
+        type="number"
+        id="programTwelveThirdNumber"
+        placeholder="enter the third mark"
+        class="d-block my-3 w-100"
+        max="100"
+        min="0"
+      />
+
+      <input
+        type="number"
+        id="programTwelveFourthNumber"
+        placeholder="enter the fourth mark"
+        class="d-block my-3 w-100"
+        max="100"
+        min="0"
+      />
+
+      <input
+        type="number"
+        id="programTwelveFifthNumber"
+        placeholder="enter the fifth mark"
+        class="d-block my-3 w-100"
+        max="100"
+        min="0"
+      />
+
+      <button onclick="programTwelve()" class="d-block my-3 mx-auto">
+        Click Me
+      </button>
+
+      <span id="programTwelveResultSpan"></span>
+    </div>
+
+    <div class="w-25 mx-auto my-5 p-5 text-bg-danger text-black fw-bold">
+      <label for="programThirteen">Program thirteen:</label>
+
+      <input
+        type="number"
+        id="programThirteenNumber"
+        placeholder="enter the month number"
+        class="d-block my-3 w-100"
+        max="12"
+        min="1"
+      />
+
+      <button onclick="programThirteen()" class="d-block my-3 mx-auto">
+        Click Me
+      </button>
+
+      <span id="programThirteenResultSpan"></span>
+    </div>
+
+    <div class="w-25 mx-auto my-5 p-5 text-bg-danger text-black fw-bold">
+      <label for="programFourten">Program fourteen:</label>
+
+      <input
+        type="number"
+        id="programFourteenFirstNumber"
+        placeholder="enter the Physics mark"
+        class="d-block my-3 w-100"
+        max="100"
+        min="0"
+      />
+
+      <input
+        type="number"
+        id="programFourteenSecondNumber"
+        placeholder="enter the Chemistry mark"
+        class="d-block my-3 w-100"
+        max="100"
+        min="0"
+      />
+
+      <input
+        type="number"
+        id="programFourteenThirdNumber"
+        placeholder="enter the Biology mark"
+        class="d-block my-3 w-100"
+        max="100"
+        min="0"
+      />
+
+      <input
+        type="number"
+        id="programFourteenFourthNumber"
+        placeholder="enter the Mathematics mark"
+        class="d-block my-3 w-100"
+        max="100"
+        min="0"
+      />
+
+      <input
+        type="number"
+        id="programFourteenFifthNumber"
+        placeholder="enter the Computer mark"
+        class="d-block my-3 w-100"
+        max="100"
+        min="0"
+      />
+
+      <button onclick="programFourteen()" class="d-block my-3 mx-auto">
+        Click Me
+      </button>
+
+      <span id="programFourteenResultSpan"></span>
+    </div>
+
+    <div class="w-25 mx-auto my-5 p-5 text-bg-danger text-black fw-bold">
+      <label for="programThirteen">Program fifteen:</label>
+
+      <input
+        type="number"
+        id="programFifteenNumber"
+        placeholder="enter the month number"
+        class="d-block my-3 w-100"
+        max="12"
+        min="1"
+      />
+
+      <button onclick="programFifteen()" class="d-block my-3 mx-auto">
+        Click Me
+      </button>
+
+      <span id="programFifteenResultSpan"></span>
+    </div>
+
+    <div class="w-25 mx-auto my-5 p-5 text-bg-danger text-black fw-bold">
+      <label for="programSeven">Program Sixteen:</label>
+
+      <input
+        type="text"
+        id="programSixteen"
+        maxlength="1"
+        class="d-block my-3 w-100"
+      />
+
+      <button onclick="programSixteen()" class="d-block my-3 mx-auto">
+        Click Me
+      </button>
+
+      <span id="programSixteenResultSpan"></span>
+    </div>
+
+    <div class="w-25 mx-auto my-5 p-5 text-bg-danger text-black fw-bold">
+      <label for="programEleven">Program Seventeen:</label>
+
+      <input
+        type="number"
+        id="programSeventeenFirstNumber"
+        placeholder="enter the first number"
+        class="d-block my-3 w-100"
+      />
+
+      <input
+        type="number"
+        id="programSeventeenSecondNumber"
+        placeholder="enter the second number"
+        class="d-block my-3 w-100"
+      />
+
+      <button onclick="programSeventeen()" class="d-block my-3 mx-auto">
+        Click Me
+      </button>
+
+      <span id="programSeventeenResultSpan"></span>
+    </div>
+
+    <div class="w-25 mx-auto my-5 p-5 text-bg-danger text-black fw-bold">
+      <label for="programEleven">Program Eighteen:</label>
+
+      <input
+        type="number"
+        id="programEighteenNumber"
+        placeholder="enter a number"
+        class="d-block my-3 w-100"
+      />
+
+      <button onclick="programEighteen()" class="d-block my-3 mx-auto">
+        Click Me
+      </button>
+
+      <span id="programEighteenResultSpan"></span>
+    </div>
+
+    <div class="w-25 mx-auto my-5 p-5 text-bg-danger text-black fw-bold">
+      <label for="programEleven">Program Nineteen:</label>
+
+      <input
+        type="text"
+        id="programNineteenNumber"
+        placeholder="enter a number"
+        class="d-block my-3 w-100"
+      />
+
+      <button onclick="programNineteen()" class="d-block my-3 mx-auto">
+        Click Me
+      </button>
+
+      <span id="programNineteenResultSpan"></span>
+    </div>
+
+    <div class="w-25 mx-auto my-5 p-5 text-bg-danger text-black fw-bold">
+      <label for="programEleven">Program Twenty:</label>
+
+      <input
+        type="number"
+        id="programTwentyFirstNumber"
+        placeholder="enter a number"
+        class="d-block my-3 w-100"
+      />
+
+      <input
+        type="number"
+        id="programTwentySecondNumber"
+        placeholder="enter a number"
+        class="d-block my-3 w-100"
+      />
+
+      <select
+        id="programTwentyOperator"
+        placeholder="enter a mathematical operator"
+        class="d-block my-3 w-100"
+      >
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="/">/</option>
+        <option value="*">*</option>
+      </select>
+
+      <button onclick="programTwenty()" class="d-block my-3 mx-auto">
+        Click Me
+      </button>
+
+      <span id="programTwentyResultSpan"></span>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
